@@ -1,28 +1,122 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="vi">
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>My Portfolio</title>
-  <style>
-    body { font-family: Arial, sans-serif; max-width: 900px; margin: 40px auto; padding: 0 20px; }
-    h1, h2 { color: #222; }
-    .project { border: 1px solid #ddd; padding: 16px; margin: 16px 0; border-radius: 10px; }
-    a { color: #0366d6; text-decoration: none; }
-  </style>
+  <title>Portfolio | Giới thiệu</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
-  <h1>Your Name</h1>
-  <p>I am a student / developer / designer...</p>
+  <div class="bg-orb orb-1"></div>
+  <div class="bg-orb orb-2"></div>
+  <div class="bg-grid"></div>
 
-  <h2>Projects</h2>
-  <div class="project">
-    <h3>Project 1</h3>
-    <p>Mô tả ngắn về project.</p>
-    <a href="#">View project</a>
-  </div>
+  <header class="site-header glass fade-down">
+    <div class="brand">
+      <div class="brand-badge">AI</div>
+      <div>
+        <h1>Portfolio học phần</h1>
+        <p>Nhập môn công nghệ số và ứng dụng trí tuệ nhân tạo</p>
+      </div>
+    </div>
+    <nav class="nav">
+      <a class="nav-link active" href="index.html">Giới thiệu</a>
+      <a class="nav-link" href="du-an.html">Dự án</a>
+      <a class="nav-link" href="tong-ket.html">Tổng kết</a>
+    </nav>
+  </header>
 
-  <h2>Contact</h2>
-  <p>Email: yourname@email.com</p>
+  <main class="container">
+    <section class="hero">
+      <div class="hero-text fade-up">
+        <span class="eyebrow">DIGITAL PORTFOLIO</span>
+        <h2>Hành trình học tập với công nghệ số và trí tuệ nhân tạo</h2>
+        <p>
+          Đây là portfolio cá nhân tổng hợp thông tin cơ bản, các bài tập đã thực hiện trên LMS
+          và phần tổng kết sau khi hoàn thành học phần <strong>Nhập môn công nghệ số và ứng dụng trí tuệ nhân tạo</strong>.
+        </p>
+        <div class="hero-actions">
+          <a class="btn btn-primary" href="du-an.html">Xem dự án</a>
+          <a class="btn btn-secondary" href="tong-ket.html">Đọc tổng kết</a>
+        </div>
+      </div>
+
+      <div class="hero-card glass float-card fade-up delay-1">
+        <div class="profile-ring"></div>
+        <div class="profile-content">
+          <div class="avatar">SV</div>
+          <h3>Thông tin sinh viên</h3>
+          <ul class="info-list">
+            <li><span>Họ và tên</span><strong>Nguyễn Văn A</strong></li>
+            <li><span>Mã sinh viên</span><strong>22IT0001</strong></li>
+            <li><span>Trường</span><strong>Đại học XYZ</strong></li>
+            <li><span>Lớp</span><strong>Nhập môn CNTS & Ứng dụng AI</strong></li>
+            <li><span>Email</span><strong>nguyenvana@example.com</strong></li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section class="grid two-col section-gap">
+      <article class="glass card fade-up delay-2">
+        <h3>Mục tiêu của portfolio</h3>
+        <p>
+          Portfolio này được xây dựng nhằm lưu lại quá trình học tập, thể hiện năng lực tiếp cận
+          kiến thức công nghệ số, kỹ năng tự học trên LMS và khả năng vận dụng các khái niệm AI
+          vào bối cảnh thực tế.
+        </p>
+      </article>
+
+      <article class="glass card fade-up delay-3">
+        <h3>Nội dung chính</h3>
+        <div class="tag-list">
+          <span class="tag">Kiến thức nền tảng số</span>
+          <span class="tag">Mạng và Internet</span>
+          <span class="tag">Đánh giá thông tin</span>
+          <span class="tag">Ứng dụng AI</span>
+          <span class="tag">An toàn số</span>
+          <span class="tag">Tư duy công nghệ</span>
+        </div>
+      </article>
+    </section>
+
+    <section class="timeline-section section-gap fade-up delay-4">
+      <div class="section-title">
+        <span class="line"></span>
+        <h3>Thông tin cơ bản</h3>
+      </div>
+
+      <div class="timeline">
+        <div class="timeline-item glass">
+          <div class="dot"></div>
+          <div>
+            <h4>Định hướng học tập</h4>
+            <p>Học cách hiểu các khái niệm cốt lõi về công nghệ số, dữ liệu, hệ thống số và vai trò của AI trong đời sống.</p>
+          </div>
+        </div>
+
+        <div class="timeline-item glass">
+          <div class="dot"></div>
+          <div>
+            <h4>Kỹ năng đạt được</h4>
+            <p>Tìm kiếm thông tin hiệu quả, đánh giá nguồn tin, hiểu các nền tảng số và bước đầu tiếp cận AI/ML/Deep Learning/Generative AI.</p>
+          </div>
+        </div>
+
+        <div class="timeline-item glass">
+          <div class="dot"></div>
+          <div>
+            <h4>Định hướng phát triển</h4>
+            <p>Tiếp tục rèn luyện kỹ năng sử dụng công cụ số, xây dựng sản phẩm cá nhân và ứng dụng AI có trách nhiệm trong học tập.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <script src="script.js"></script>
 </body>
 </html>
