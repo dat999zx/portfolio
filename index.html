@@ -10,112 +10,136 @@
   <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
-  <div class="bg-orb orb-1"></div>
-  <div class="bg-orb orb-2"></div>
-  <div class="bg-grid"></div>
+  <div class="page-shell">
+    <header class="site-header reveal">
+      <a class="brand" href="index.html">
+        <span class="brand-badge">PF</span>
+        <span class="brand-copy">
+          <strong>Digital Portfolio</strong>
+          <small>Nhập môn công nghệ số và ứng dụng trí tuệ nhân tạo</small>
+        </span>
+      </a>
 
-  <header class="site-header glass fade-down">
-    <div class="brand">
-      <div class="brand-badge">AI</div>
-      <div>
-        <h1>Portfolio học phần</h1>
-        <p>Nhập môn công nghệ số và ứng dụng trí tuệ nhân tạo</p>
-      </div>
-    </div>
-    <nav class="nav">
-      <a class="nav-link active" href="index.html">Giới thiệu</a>
-      <a class="nav-link" href="du-an.html">Dự án</a>
-      <a class="nav-link" href="tong-ket.html">Tổng kết</a>
-    </nav>
-  </header>
+      <nav class="nav">
+        <a class="nav-link active" href="index.html">Giới thiệu</a>
+        <a class="nav-link" href="du-an.html">Dự án</a>
+        <a class="nav-link" href="tong-ket.html">Tổng kết</a>
+      </nav>
+    </header>
 
-  <main class="container">
-    <section class="hero">
-      <div class="hero-text fade-up">
-        <span class="eyebrow">DIGITAL PORTFOLIO</span>
-        <h2>Hành trình học tập với công nghệ số và trí tuệ nhân tạo</h2>
-        <p>
-          Đây là portfolio cá nhân tổng hợp thông tin cơ bản, các bài tập đã thực hiện trên LMS
-          và phần tổng kết sau khi hoàn thành học phần <strong>Nhập môn công nghệ số và ứng dụng trí tuệ nhân tạo</strong>.
-        </p>
-        <div class="hero-actions">
-          <a class="btn btn-primary" href="du-an.html">Xem dự án</a>
-          <a class="btn btn-secondary" href="tong-ket.html">Đọc tổng kết</a>
+    <main class="container">
+      <section class="hero reveal">
+        <div class="hero-copy">
+          <span class="eyebrow">TRANG GIỚI THIỆU</span>
+          <h1>Portfolio cá nhân được thiết kế theo đúng yêu cầu môn học, với tông sáng hiện đại và dễ đọc.</h1>
+          <p class="lead">
+            Website này tổng hợp thông tin cá nhân, mục tiêu học tập, các bài tập đã thực hiện trên LMS
+            và phần tự đánh giá sau khi hoàn thành học phần. Bố cục được chia thành 3 trang rõ ràng để
+            thuận tiện khi nộp bài và trình bày sản phẩm.
+          </p>
+
+          <div class="hero-actions">
+            <a class="btn btn-primary" href="du-an.html">Xem trang dự án</a>
+            <a class="btn btn-secondary" href="tong-ket.html">Đọc trang tổng kết</a>
+          </div>
+
+          <div class="stat-grid">
+            <article class="stat-card">
+              <strong>03</strong>
+              <span>Trang nội dung chính</span>
+            </article>
+            <article class="stat-card">
+              <strong>06</strong>
+              <span>Nhóm bài tập theo đề bài</span>
+            </article>
+            <article class="stat-card">
+              <strong>01</strong>
+              <span>Phong cách trình bày thống nhất</span>
+            </article>
+          </div>
         </div>
-      </div>
 
-      <div class="hero-card glass float-card fade-up delay-1">
-        <div class="profile-ring"></div>
-        <div class="profile-content">
-          <div class="avatar">SV</div>
-          <h3>Thông tin sinh viên</h3>
+        <aside class="profile-card reveal">
+          <div class="profile-top">
+            <div class="avatar">SV</div>
+            <div>
+              <p class="profile-label">Thông tin sinh viên</p>
+              <h2>Nguyễn Văn A</h2>
+              <p class="muted">Mẫu nội dung để thay bằng thông tin thật trước khi nộp bài.</p>
+            </div>
+          </div>
+
           <ul class="info-list">
-            <li><span>Họ và tên</span><strong>Nguyễn Văn A</strong></li>
             <li><span>Mã sinh viên</span><strong>22IT0001</strong></li>
+            <li><span>Lớp</span><strong>Nhập môn CN số và AI</strong></li>
             <li><span>Trường</span><strong>Đại học XYZ</strong></li>
-            <li><span>Lớp</span><strong>Nhập môn CNTS & Ứng dụng AI</strong></li>
             <li><span>Email</span><strong>nguyenvana@example.com</strong></li>
+            <li><span>Mục tiêu</span><strong>Hoàn thiện portfolio đúng yêu cầu</strong></li>
           </ul>
-        </div>
-      </div>
-    </section>
+        </aside>
+      </section>
 
-    <section class="grid two-col section-gap">
-      <article class="glass card fade-up delay-2">
-        <h3>Mục tiêu của portfolio</h3>
-        <p>
-          Portfolio này được xây dựng nhằm lưu lại quá trình học tập, thể hiện năng lực tiếp cận
-          kiến thức công nghệ số, kỹ năng tự học trên LMS và khả năng vận dụng các khái niệm AI
-          vào bối cảnh thực tế.
-        </p>
-      </article>
-
-      <article class="glass card fade-up delay-3">
-        <h3>Nội dung chính</h3>
-        <div class="tag-list">
-          <span class="tag">Kiến thức nền tảng số</span>
-          <span class="tag">Mạng và Internet</span>
-          <span class="tag">Đánh giá thông tin</span>
-          <span class="tag">Ứng dụng AI</span>
-          <span class="tag">An toàn số</span>
-          <span class="tag">Tư duy công nghệ</span>
-        </div>
-      </article>
-    </section>
-
-    <section class="timeline-section section-gap fade-up delay-4">
-      <div class="section-title">
-        <span class="line"></span>
-        <h3>Thông tin cơ bản</h3>
-      </div>
-
-      <div class="timeline">
-        <div class="timeline-item glass">
-          <div class="dot"></div>
-          <div>
-            <h4>Định hướng học tập</h4>
-            <p>Học cách hiểu các khái niệm cốt lõi về công nghệ số, dữ liệu, hệ thống số và vai trò của AI trong đời sống.</p>
-          </div>
+      <section class="section reveal">
+        <div class="section-heading">
+          <span class="section-kicker">I. Mục tiêu</span>
+          <h2>Nội dung bám sát phần mô tả trong đề bài cá nhân</h2>
         </div>
 
-        <div class="timeline-item glass">
-          <div class="dot"></div>
-          <div>
-            <h4>Kỹ năng đạt được</h4>
-            <p>Tìm kiếm thông tin hiệu quả, đánh giá nguồn tin, hiểu các nền tảng số và bước đầu tiếp cận AI/ML/Deep Learning/Generative AI.</p>
-          </div>
+        <div class="grid-two">
+          <article class="panel">
+            <h3>Mục tiêu của portfolio</h3>
+            <p>
+              Thể hiện quá trình học tập, khả năng tổng hợp kiến thức và cách trình bày nội dung số
+              một cách mạch lạc. Portfolio không chỉ là nơi lưu bài làm mà còn phản ánh tư duy tổ chức,
+              tính thẩm mỹ và khả năng sử dụng công cụ số của sinh viên.
+            </p>
+          </article>
+
+          <article class="panel">
+            <h3>Những gì website này đáp ứng</h3>
+            <ul class="feature-list">
+              <li>Trang giới thiệu có thông tin cá nhân, định hướng và mục tiêu học tập.</li>
+              <li>Trang dự án trình bày đầy đủ các bài tập thành phần theo nhóm nội dung.</li>
+              <li>Trang tổng kết nêu kiến thức tiếp thu, kỹ năng cải thiện và định hướng tiếp theo.</li>
+            </ul>
+          </article>
+        </div>
+      </section>
+
+      <section class="section reveal">
+        <div class="section-heading">
+          <span class="section-kicker">II. Bố cục đề xuất</span>
+          <h2>Thiết kế sáng, rõ, ưu tiên khả năng đọc và cảm giác chuyên nghiệp</h2>
         </div>
 
-        <div class="timeline-item glass">
-          <div class="dot"></div>
-          <div>
-            <h4>Định hướng phát triển</h4>
-            <p>Tiếp tục rèn luyện kỹ năng sử dụng công cụ số, xây dựng sản phẩm cá nhân và ứng dụng AI có trách nhiệm trong học tập.</p>
-          </div>
+        <div class="timeline">
+          <article class="timeline-item">
+            <span class="timeline-step">1</span>
+            <div>
+              <h3>Trang Giới thiệu</h3>
+              <p>Trình bày thông tin cá nhân, mục tiêu của portfolio, định hướng học tập và phần tóm tắt nhanh về cấu trúc website.</p>
+            </div>
+          </article>
+
+          <article class="timeline-item">
+            <span class="timeline-step">2</span>
+            <div>
+              <h3>Trang Dự án</h3>
+              <p>Tổng hợp các bài tập, sản phẩm hoặc nội dung minh chứng đã hoàn thành, chia theo từng mục lớn của môn học.</p>
+            </div>
+          </article>
+
+          <article class="timeline-item">
+            <span class="timeline-step">3</span>
+            <div>
+              <h3>Trang Tổng kết</h3>
+              <p>Viết cảm nhận, tự đánh giá, rút ra kiến thức quan trọng và nêu hướng phát triển sau khi kết thúc học phần.</p>
+            </div>
+          </article>
         </div>
-      </div>
-    </section>
-  </main>
+      </section>
+    </main>
+  </div>
 
   <script src="script.js"></script>
 </body>

@@ -10,121 +10,149 @@
   <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
-  <div class="bg-orb orb-1"></div>
-  <div class="bg-orb orb-2"></div>
-  <div class="bg-grid"></div>
+  <div class="page-shell">
+    <header class="site-header reveal">
+      <a class="brand" href="index.html">
+        <span class="brand-badge">PF</span>
+        <span class="brand-copy">
+          <strong>Digital Portfolio</strong>
+          <small>Nhập môn công nghệ số và ứng dụng trí tuệ nhân tạo</small>
+        </span>
+      </a>
 
-  <header class="site-header glass fade-down">
-    <div class="brand">
-      <div class="brand-badge">AI</div>
-      <div>
-        <h1>Portfolio học phần</h1>
-        <p>Nhập môn công nghệ số và ứng dụng trí tuệ nhân tạo</p>
-      </div>
-    </div>
-    <nav class="nav">
-      <a class="nav-link" href="index.html">Giới thiệu</a>
-      <a class="nav-link active" href="du-an.html">Dự án</a>
-      <a class="nav-link" href="tong-ket.html">Tổng kết</a>
-    </nav>
-  </header>
+      <nav class="nav">
+        <a class="nav-link" href="index.html">Giới thiệu</a>
+        <a class="nav-link active" href="du-an.html">Dự án</a>
+        <a class="nav-link" href="tong-ket.html">Tổng kết</a>
+      </nav>
+    </header>
 
-  <main class="container">
-    <section class="page-head fade-up">
-      <span class="eyebrow">LMS EXERCISES</span>
-      <h2>Các bài tập và nội dung đã thực hiện</h2>
-      <p>
-        Trang này tổng hợp các nội dung học tập, bài quiz, bài thực hành và sản phẩm nhỏ
-        đã hoàn thành trên hệ thống LMS trong suốt khóa học.
-      </p>
-    </section>
+    <main class="container">
+      <section class="page-intro reveal">
+        <span class="eyebrow">TRANG DỰ ÁN</span>
+        <h1>Tổng hợp các bài tập thành phần theo đúng cấu trúc đề bài yêu cầu.</h1>
+        <p class="lead">
+          Nội dung bên dưới được nhóm lại theo các mục xuất hiện trong ảnh hướng dẫn: thao tác với dữ liệu,
+          tìm kiếm và đánh giá thông tin, viết prompt, sử dụng công cụ số, sáng tạo nội dung số và sử dụng AI có trách nhiệm.
+        </p>
+      </section>
 
-    <section class="projects-grid">
-      <article class="glass project-card reveal">
-        <div class="project-top">
-          <span class="project-badge">Bài tập 01</span>
-          <span class="project-score">Hoàn thành</span>
+      <section class="section reveal">
+        <div class="project-grid">
+          <article class="project-card">
+            <div class="project-head">
+              <span class="chip">Bài 1</span>
+              <span class="status">Mục 1.4</span>
+            </div>
+            <h2>Thao tác cơ bản với dữ liệu</h2>
+            <p>Trình bày mục tiêu lưu trữ và quản lý tệp, cách đặt tên tệp khoa học, tổ chức thư mục rõ ràng và minh chứng quá trình thực hiện.</p>
+            <ul class="feature-list">
+              <li>Mô tả cấu trúc thư mục dùng trong quá trình học.</li>
+              <li>Giải thích nguyên tắc đặt tên tệp để dễ tìm kiếm.</li>
+              <li>Đính kèm ảnh chụp minh họa hoặc liên kết sản phẩm.</li>
+            </ul>
+          </article>
+
+          <article class="project-card">
+            <div class="project-head">
+              <span class="chip">Bài 2</span>
+              <span class="status">Mục 2.2</span>
+            </div>
+            <h2>Tìm kiếm và đánh giá thông tin</h2>
+            <p>Trình bày cách tìm kiếm học thuật bằng các toán tử nâng cao, đồng thời đánh giá nguồn tin theo mức độ tin cậy và mục đích sử dụng.</p>
+            <ul class="feature-list">
+              <li>Từ khóa và chiến lược tìm kiếm đã áp dụng.</li>
+              <li>So sánh ít nhất hai nguồn thông tin khác nhau.</li>
+              <li>Nhận xét độ liên quan, độ chính xác và độ tin cậy.</li>
+            </ul>
+          </article>
+
+          <article class="project-card">
+            <div class="project-head">
+              <span class="chip">Bài 3</span>
+              <span class="status">Mục 3.4</span>
+            </div>
+            <h2>Viết Prompt hiệu quả cho AI</h2>
+            <p>So sánh giữa prompt ban đầu và prompt đã cải tiến, chỉ ra sự khác biệt về độ rõ ràng, bối cảnh và chất lượng đầu ra.</p>
+            <ul class="feature-list">
+              <li>Đưa ví dụ prompt gốc và prompt cải tiến.</li>
+              <li>Phân tích vì sao đầu ra được cải thiện.</li>
+              <li>Rút ra nguyên tắc viết prompt dễ áp dụng về sau.</li>
+            </ul>
+          </article>
+
+          <article class="project-card">
+            <div class="project-head">
+              <span class="chip">Bài 4</span>
+              <span class="status">Mục 4.8</span>
+            </div>
+            <h2>Sử dụng công cụ hợp tác trực tuyến</h2>
+            <p>Minh chứng việc sử dụng công cụ quản lý dự án nhóm và công cụ hỗ trợ học tập trực tuyến để phối hợp công việc hiệu quả hơn.</p>
+            <ul class="feature-list">
+              <li>Mô tả công cụ đã dùng và vai trò của từng công cụ.</li>
+              <li>Trình bày cách phân chia nhiệm vụ hoặc theo dõi tiến độ.</li>
+              <li>Đánh giá mức độ hỗ trợ của công cụ trong học tập.</li>
+            </ul>
+          </article>
+
+          <article class="project-card">
+            <div class="project-head">
+              <span class="chip">Bài 5</span>
+              <span class="status">Mục 5.4</span>
+            </div>
+            <h2>Sáng tạo nội dung số</h2>
+            <p>Tạo một sản phẩm nội dung số hoàn chỉnh như ảnh, video, bài thuyết trình hoặc bài viết có hỗ trợ từ công cụ AI.</p>
+            <ul class="feature-list">
+              <li>Nêu ý tưởng và đối tượng người xem hướng tới.</li>
+              <li>Liệt kê công cụ và quy trình tạo sản phẩm.</li>
+              <li>Đính kèm liên kết hoặc hình ảnh minh họa thành phẩm.</li>
+            </ul>
+          </article>
+
+          <article class="project-card">
+            <div class="project-head">
+              <span class="chip">Bài 6</span>
+              <span class="status">Mục 6.4</span>
+            </div>
+            <h2>Sử dụng AI có trách nhiệm</h2>
+            <p>Trình bày các nguyên tắc cá nhân khi dùng AI trong học tập và nghiên cứu, đặc biệt là tính minh bạch, kiểm chứng và tôn trọng bản quyền.</p>
+            <ul class="feature-list">
+              <li>Nêu rủi ro khi phụ thuộc hoàn toàn vào AI.</li>
+              <li>Đưa ra quy tắc kiểm tra lại thông tin trước khi sử dụng.</li>
+              <li>Khẳng định vai trò của tư duy phản biện trong môi trường số.</li>
+            </ul>
+          </article>
         </div>
-        <h3>Khái niệm cơ bản về công nghệ số</h3>
-        <p>Tìm hiểu dữ liệu, thông tin, tri thức, hệ thống số và các thành phần trong hệ sinh thái công nghệ.</p>
-        <ul class="mini-list">
-          <li>Phân biệt dữ liệu và thông tin</li>
-          <li>Nhận biết nền tảng số</li>
-          <li>Vai trò của Internet và điện toán đám mây</li>
-        </ul>
-      </article>
+      </section>
 
-      <article class="glass project-card reveal">
-        <div class="project-top">
-          <span class="project-badge">Bài tập 02</span>
-          <span class="project-score">Quiz</span>
+      <section class="section reveal">
+        <div class="section-heading">
+          <span class="section-kicker">Yêu cầu nộp bài</span>
+          <h2>Những điểm cần có để portfolio hoàn chỉnh hơn</h2>
         </div>
-        <h3>Đánh giá độ tin cậy của nguồn thông tin</h3>
-        <p>Vận dụng các tiêu chí như Relevance, Accuracy, Purpose để đánh giá chất lượng nội dung số.</p>
-        <ul class="mini-list">
-          <li>Xác định tính liên quan</li>
-          <li>Nhận biết thiên lệch quảng cáo</li>
-          <li>So sánh độ chính xác của nguồn tin</li>
-        </ul>
-      </article>
 
-      <article class="glass project-card reveal">
-        <div class="project-top">
-          <span class="project-badge">Bài tập 03</span>
-          <span class="project-score">Thực hành</span>
-        </div>
-        <h3>An toàn số và bảo mật mạng</h3>
-        <p>Thực hành nhận diện các nguyên tắc kết nối mạng an toàn, Wi‑Fi bảo mật và cách bảo vệ dữ liệu cá nhân.</p>
-        <ul class="mini-list">
-          <li>Phân biệt LAN và WAN</li>
-          <li>Thực hành kết nối an toàn</li>
-          <li>Tìm hiểu WPA2 và xác thực</li>
-        </ul>
-      </article>
+        <div class="grid-two">
+          <article class="panel">
+            <h3>Cần bổ sung khi nộp bản chính thức</h3>
+            <ul class="feature-list">
+              <li>Thay toàn bộ thông tin mẫu bằng thông tin sinh viên thật.</li>
+              <li>Gắn link hoặc ảnh minh chứng cho từng bài tập đã thực hiện.</li>
+              <li>Kiểm tra lại chính tả, dấu tiếng Việt và tính nhất quán của nội dung.</li>
+            </ul>
+          </article>
 
-      <article class="glass project-card reveal">
-        <div class="project-top">
-          <span class="project-badge">Bài tập 04</span>
-          <span class="project-score">LMS</span>
+          <article class="panel">
+            <h3>Ưu điểm của bố cục hiện tại</h3>
+            <ul class="feature-list">
+              <li>Dễ chia thành các mục lớn đúng theo đề bài.</li>
+              <li>Tông trắng sáng giúp bài nhìn sạch và chuyên nghiệp hơn.</li>
+              <li>Thuận tiện đưa lên GitHub Pages hoặc nộp link website trực tiếp.</li>
+            </ul>
+          </article>
         </div>
-        <h3>AI, Machine Learning, Deep Learning, Generative AI</h3>
-        <p>Khám phá mối quan hệ phân cấp giữa các lĩnh vực và ví dụ ứng dụng AI trong công cụ số hằng ngày.</p>
-        <ul class="mini-list">
-          <li>Hiểu AI là phạm trù rộng</li>
-          <li>ML và DL là các nhánh con</li>
-          <li>Generative AI tạo nội dung mới</li>
-        </ul>
-      </article>
-
-      <article class="glass project-card reveal">
-        <div class="project-top">
-          <span class="project-badge">Bài tập 05</span>
-          <span class="project-score">Ứng dụng</span>
-        </div>
-        <h3>Giao diện GUI và CLI</h3>
-        <p>So sánh ưu điểm, cách sử dụng và bối cảnh ứng dụng của giao diện đồ họa và giao diện dòng lệnh.</p>
-        <ul class="mini-list">
-          <li>GUI trực quan, dễ dùng</li>
-          <li>CLI mạnh cho quản trị và tự động hóa</li>
-          <li>Hiểu cách lựa chọn công cụ phù hợp</li>
-        </ul>
-      </article>
-
-      <article class="glass project-card reveal">
-        <div class="project-top">
-          <span class="project-badge">Bài tập 06</span>
-          <span class="project-score">Tổng hợp</span>
-        </div>
-        <h3>Digital Portfolio cuối khóa</h3>
-        <p>Xây dựng portfolio cá nhân để hệ thống hóa kiến thức, các sản phẩm đã học và định hướng phát triển sau khóa học.</p>
-        <ul class="mini-list">
-          <li>Thiết kế website nhiều trang</li>
-          <li>Trình bày mạch lạc, hiện đại</li>
-          <li>Tổng kết kiến thức đã tiếp thu</li>
-        </ul>
-      </article>
-    </section>
-  </main>
+      </section>
+    </main>
+  </div>
 
   <script src="script.js"></script>
 </body>
